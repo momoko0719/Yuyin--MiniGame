@@ -142,3 +142,15 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+# === 游戏原型：音频与引擎缓存 ===
+# 版权音乐不入库（公开仓库）。想跑起来请自备音频，见 prototypes/rhythm-feel/README.md
+prototypes/**/audio/qian_si_xi.*
+prototypes/**/audio/huo_yuan_jia.*
+prototypes/**/audio/牵丝戏.*
+prototypes/**/audio/霍元甲.*
+# 程序生成的节拍器音轨，用 tools/make_click_track.py 重建
+prototypes/**/audio/click_*.wav
+prototypes/**/audio/click_*.wav.import
+# Godot 引擎缓存
+prototypes/**/.godot/

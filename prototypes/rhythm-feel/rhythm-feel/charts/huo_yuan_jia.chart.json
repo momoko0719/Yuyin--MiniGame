@@ -1,0 +1,833 @@
+{
+  "bpm": 98.081,
+  "event_count": 206,
+  "events": [
+    {
+      "beat": 25.0,
+      "role": "strike"
+    },
+    {
+      "beat": 26.0,
+      "role": "strike"
+    },
+    {
+      "beat": 27.0,
+      "role": "strike"
+    },
+    {
+      "beat": 28.0,
+      "role": "strike"
+    },
+    {
+      "beat": 29.0,
+      "role": "strike"
+    },
+    {
+      "beat": 30.0,
+      "role": "strike"
+    },
+    {
+      "beat": 31.0,
+      "role": "strike"
+    },
+    {
+      "beat": 32.0,
+      "role": "strike"
+    },
+    {
+      "beat": 33.0,
+      "role": "strike"
+    },
+    {
+      "beat": 34.0,
+      "role": "strike"
+    },
+    {
+      "beat": 35.0,
+      "role": "strike"
+    },
+    {
+      "beat": 36.0,
+      "role": "strike"
+    },
+    {
+      "beat": 37.0,
+      "role": "strike"
+    },
+    {
+      "beat": 38.0,
+      "role": "strike"
+    },
+    {
+      "beat": 39.0,
+      "role": "strike"
+    },
+    {
+      "beat": 40.0,
+      "role": "strike"
+    },
+    {
+      "beat": 41.0,
+      "role": "strike"
+    },
+    {
+      "beat": 42.0,
+      "role": "strike"
+    },
+    {
+      "beat": 43.0,
+      "role": "strike"
+    },
+    {
+      "beat": 44.0,
+      "role": "strike"
+    },
+    {
+      "beat": 45.0,
+      "role": "strike"
+    },
+    {
+      "beat": 46.0,
+      "role": "strike"
+    },
+    {
+      "beat": 47.0,
+      "role": "strike"
+    },
+    {
+      "beat": 48.0,
+      "role": "strike"
+    },
+    {
+      "beat": 49.0,
+      "role": "strike"
+    },
+    {
+      "beat": 50.0,
+      "role": "strike"
+    },
+    {
+      "beat": 51.0,
+      "role": "strike"
+    },
+    {
+      "beat": 52.0,
+      "role": "strike"
+    },
+    {
+      "beat": 53.0,
+      "role": "strike"
+    },
+    {
+      "beat": 54.0,
+      "role": "strike"
+    },
+    {
+      "beat": 55.0,
+      "role": "strike"
+    },
+    {
+      "beat": 56.0,
+      "role": "strike"
+    },
+    {
+      "beat": 57.0,
+      "role": "strike"
+    },
+    {
+      "beat": 58.0,
+      "role": "strike"
+    },
+    {
+      "beat": 59.25,
+      "role": "strike"
+    },
+    {
+      "beat": 60.0,
+      "role": "strike"
+    },
+    {
+      "beat": 61.0,
+      "role": "strike"
+    },
+    {
+      "beat": 62.25,
+      "role": "strike"
+    },
+    {
+      "beat": 63.25,
+      "role": "strike"
+    },
+    {
+      "beat": 64.0,
+      "role": "block"
+    },
+    {
+      "beat": 64.5,
+      "role": "block"
+    },
+    {
+      "beat": 65.0,
+      "role": "strike"
+    },
+    {
+      "beat": 66.0,
+      "role": "strike"
+    },
+    {
+      "beat": 67.0,
+      "role": "strike"
+    },
+    {
+      "beat": 68.0,
+      "role": "block"
+    },
+    {
+      "beat": 68.5,
+      "role": "block"
+    },
+    {
+      "beat": 69.0,
+      "role": "strike"
+    },
+    {
+      "beat": 70.0,
+      "role": "strike"
+    },
+    {
+      "beat": 71.0,
+      "role": "strike"
+    },
+    {
+      "beat": 72.0,
+      "role": "block"
+    },
+    {
+      "beat": 72.5,
+      "role": "block"
+    },
+    {
+      "beat": 73.0,
+      "role": "strike"
+    },
+    {
+      "beat": 74.0,
+      "role": "strike"
+    },
+    {
+      "beat": 75.0,
+      "role": "strike"
+    },
+    {
+      "beat": 76.0,
+      "role": "block"
+    },
+    {
+      "beat": 76.5,
+      "role": "block"
+    },
+    {
+      "beat": 77.0,
+      "role": "strike"
+    },
+    {
+      "beat": 78.0,
+      "role": "strike"
+    },
+    {
+      "beat": 79.0,
+      "role": "strike"
+    },
+    {
+      "beat": 80.0,
+      "role": "block"
+    },
+    {
+      "beat": 80.5,
+      "role": "block"
+    },
+    {
+      "beat": 81.0,
+      "role": "strike"
+    },
+    {
+      "beat": 82.0,
+      "role": "strike"
+    },
+    {
+      "beat": 83.0,
+      "role": "strike"
+    },
+    {
+      "beat": 84.0,
+      "role": "block"
+    },
+    {
+      "beat": 84.5,
+      "role": "block"
+    },
+    {
+      "beat": 85.0,
+      "role": "strike"
+    },
+    {
+      "beat": 86.0,
+      "role": "strike"
+    },
+    {
+      "beat": 87.0,
+      "role": "strike"
+    },
+    {
+      "beat": 88.0,
+      "role": "block"
+    },
+    {
+      "beat": 88.5,
+      "role": "block"
+    },
+    {
+      "beat": 89.0,
+      "role": "strike"
+    },
+    {
+      "beat": 90.0,
+      "role": "strike"
+    },
+    {
+      "beat": 91.0,
+      "role": "strike"
+    },
+    {
+      "beat": 92.0,
+      "role": "strike"
+    },
+    {
+      "beat": 92.5,
+      "role": "block"
+    },
+    {
+      "beat": 93.0,
+      "role": "block"
+    },
+    {
+      "beat": 94.0,
+      "role": "strike"
+    },
+    {
+      "beat": 95.0,
+      "role": "strike"
+    },
+    {
+      "beat": 96.0,
+      "role": "strike"
+    },
+    {
+      "beat": 97.0,
+      "role": "strike"
+    },
+    {
+      "beat": 98.25,
+      "role": "strike"
+    },
+    {
+      "beat": 99.0,
+      "role": "strike"
+    },
+    {
+      "beat": 100.0,
+      "role": "strike"
+    },
+    {
+      "beat": 100.5,
+      "role": "block"
+    },
+    {
+      "beat": 101.0,
+      "role": "strike"
+    },
+    {
+      "beat": 102.25,
+      "role": "strike"
+    },
+    {
+      "beat": 103.0,
+      "role": "strike"
+    },
+    {
+      "beat": 104.0,
+      "role": "block"
+    },
+    {
+      "beat": 104.5,
+      "role": "block"
+    },
+    {
+      "beat": 105.0,
+      "role": "strike"
+    },
+    {
+      "beat": 105.5,
+      "role": "strike"
+    },
+    {
+      "beat": 106.0,
+      "role": "block"
+    },
+    {
+      "beat": 107.0,
+      "role": "strike"
+    },
+    {
+      "beat": 107.5,
+      "role": "strike"
+    },
+    {
+      "beat": 108.0,
+      "role": "block"
+    },
+    {
+      "beat": 109.0,
+      "role": "strike"
+    },
+    {
+      "beat": 109.5,
+      "role": "strike"
+    },
+    {
+      "beat": 110.0,
+      "role": "strike"
+    },
+    {
+      "beat": 110.5,
+      "role": "strike"
+    },
+    {
+      "beat": 111.0,
+      "role": "strike"
+    },
+    {
+      "beat": 111.5,
+      "role": "strike"
+    },
+    {
+      "beat": 112.0,
+      "role": "block"
+    },
+    {
+      "beat": 113.0,
+      "role": "strike"
+    },
+    {
+      "beat": 113.5,
+      "role": "strike"
+    },
+    {
+      "beat": 114.0,
+      "role": "block"
+    },
+    {
+      "beat": 115.0,
+      "role": "strike"
+    },
+    {
+      "beat": 115.5,
+      "role": "block"
+    },
+    {
+      "beat": 116.0,
+      "role": "strike"
+    },
+    {
+      "beat": 117.0,
+      "role": "block"
+    },
+    {
+      "beat": 117.5,
+      "role": "block"
+    },
+    {
+      "beat": 118.0,
+      "role": "block"
+    },
+    {
+      "beat": 118.5,
+      "role": "block"
+    },
+    {
+      "beat": 119.0,
+      "role": "strike"
+    },
+    {
+      "beat": 119.5,
+      "role": "strike"
+    },
+    {
+      "beat": 120.0,
+      "role": "strike"
+    },
+    {
+      "beat": 121.0,
+      "role": "block"
+    },
+    {
+      "beat": 122.0,
+      "role": "block"
+    },
+    {
+      "beat": 123.0,
+      "role": "block"
+    },
+    {
+      "beat": 124.5,
+      "role": "strike"
+    },
+    {
+      "beat": 125.0,
+      "role": "block"
+    },
+    {
+      "beat": 126.5,
+      "role": "strike"
+    },
+    {
+      "beat": 127.0,
+      "role": "block"
+    },
+    {
+      "beat": 127.5,
+      "role": "strike"
+    },
+    {
+      "beat": 128.0,
+      "role": "block"
+    },
+    {
+      "beat": 129.0,
+      "role": "strike"
+    },
+    {
+      "beat": 130.0,
+      "role": "block"
+    },
+    {
+      "beat": 131.0,
+      "role": "strike"
+    },
+    {
+      "beat": 132.0,
+      "role": "block"
+    },
+    {
+      "beat": 132.5,
+      "role": "strike"
+    },
+    {
+      "beat": 133.0,
+      "role": "block"
+    },
+    {
+      "beat": 134.0,
+      "role": "block"
+    },
+    {
+      "beat": 135.0,
+      "role": "block"
+    },
+    {
+      "beat": 136.0,
+      "role": "block"
+    },
+    {
+      "beat": 137.0,
+      "role": "strike"
+    },
+    {
+      "beat": 138.0,
+      "role": "strike"
+    },
+    {
+      "beat": 139.0,
+      "role": "block"
+    },
+    {
+      "beat": 140.0,
+      "role": "strike"
+    },
+    {
+      "beat": 141.0,
+      "role": "block"
+    },
+    {
+      "beat": 142.0,
+      "role": "block"
+    },
+    {
+      "beat": 143.0,
+      "role": "strike"
+    },
+    {
+      "beat": 144.0,
+      "role": "strike"
+    },
+    {
+      "beat": 145.0,
+      "role": "strike"
+    },
+    {
+      "beat": 146.0,
+      "role": "strike"
+    },
+    {
+      "beat": 147.0,
+      "role": "block"
+    },
+    {
+      "beat": 148.0,
+      "role": "block"
+    },
+    {
+      "beat": 149.0,
+      "role": "strike"
+    },
+    {
+      "beat": 149.5,
+      "role": "strike"
+    },
+    {
+      "beat": 150.0,
+      "role": "strike"
+    },
+    {
+      "beat": 150.5,
+      "role": "strike"
+    },
+    {
+      "beat": 151.0,
+      "role": "strike"
+    },
+    {
+      "beat": 151.5,
+      "role": "strike"
+    },
+    {
+      "beat": 152.0,
+      "role": "strike"
+    },
+    {
+      "beat": 152.5,
+      "role": "strike"
+    },
+    {
+      "beat": 153.0,
+      "role": "block"
+    },
+    {
+      "beat": 153.5,
+      "role": "block"
+    },
+    {
+      "beat": 154.25,
+      "role": "block"
+    },
+    {
+      "beat": 155.0,
+      "role": "block"
+    },
+    {
+      "beat": 155.25,
+      "role": "block"
+    },
+    {
+      "beat": 155.5,
+      "role": "block"
+    },
+    {
+      "beat": 156.25,
+      "role": "strike"
+    },
+    {
+      "beat": 157.25,
+      "role": "block"
+    },
+    {
+      "beat": 157.75,
+      "role": "block"
+    },
+    {
+      "beat": 158.25,
+      "role": "block"
+    },
+    {
+      "beat": 158.5,
+      "role": "block"
+    },
+    {
+      "beat": 159.0,
+      "role": "block"
+    },
+    {
+      "beat": 159.5,
+      "role": "block"
+    },
+    {
+      "beat": 160.0,
+      "role": "strike"
+    },
+    {
+      "beat": 161.0,
+      "role": "block"
+    },
+    {
+      "beat": 161.75,
+      "role": "block"
+    },
+    {
+      "beat": 162.25,
+      "role": "block"
+    },
+    {
+      "beat": 162.5,
+      "role": "block"
+    },
+    {
+      "beat": 163.0,
+      "role": "block"
+    },
+    {
+      "beat": 163.5,
+      "role": "block"
+    },
+    {
+      "beat": 163.75,
+      "role": "block"
+    },
+    {
+      "beat": 164.25,
+      "role": "strike"
+    },
+    {
+      "beat": 165.25,
+      "role": "block"
+    },
+    {
+      "beat": 165.75,
+      "role": "block"
+    },
+    {
+      "beat": 166.25,
+      "role": "block"
+    },
+    {
+      "beat": 167.0,
+      "role": "block"
+    },
+    {
+      "beat": 168.25,
+      "role": "block"
+    },
+    {
+      "beat": 169.25,
+      "role": "strike"
+    },
+    {
+      "beat": 169.75,
+      "role": "strike"
+    },
+    {
+      "beat": 170.25,
+      "role": "strike"
+    },
+    {
+      "beat": 170.5,
+      "role": "strike"
+    },
+    {
+      "beat": 171.0,
+      "role": "strike"
+    },
+    {
+      "beat": 171.5,
+      "role": "strike"
+    },
+    {
+      "beat": 172.25,
+      "role": "block"
+    },
+    {
+      "beat": 173.25,
+      "role": "strike"
+    },
+    {
+      "beat": 174.25,
+      "role": "strike"
+    },
+    {
+      "beat": 175.0,
+      "role": "block"
+    },
+    {
+      "beat": 175.5,
+      "role": "strike"
+    },
+    {
+      "beat": 175.75,
+      "role": "block"
+    },
+    {
+      "beat": 176.25,
+      "role": "strike"
+    },
+    {
+      "beat": 177.25,
+      "role": "block"
+    },
+    {
+      "beat": 177.75,
+      "role": "block"
+    },
+    {
+      "beat": 178.25,
+      "role": "block"
+    },
+    {
+      "beat": 179.0,
+      "role": "block"
+    },
+    {
+      "beat": 179.5,
+      "role": "block"
+    },
+    {
+      "beat": 179.75,
+      "role": "block"
+    },
+    {
+      "beat": 180.25,
+      "role": "strike"
+    },
+    {
+      "beat": 181.0,
+      "role": "block"
+    },
+    {
+      "beat": 182.0,
+      "role": "block"
+    },
+    {
+      "beat": 183.0,
+      "role": "strike"
+    },
+    {
+      "beat": 183.5,
+      "role": "block"
+    },
+    {
+      "beat": 184.0,
+      "role": "strike"
+    }
+  ],
+  "first_beat_sec": 0.0551,
+  "quantize": 4,
+  "song": "huo_yuan_jia.ogg"
+}

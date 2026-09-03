@@ -1,0 +1,62 @@
+{
+  "file": "北去一刀.mp3",
+  "duration_sec": 146.08,
+  "bpm": 150.006,
+  "bpm_raw_estimate": 148.026,
+  "first_beat_sec": 0.076,
+  "first_beat_uncorrected_sec": 0.0747,
+  "phase_confidence": 4.494,
+  "beats_per_bar": 4,
+  "beat_count": 364,
+  "sections": [
+    {
+      "name": "intro",
+      "start_sec": 0.0,
+      "end_sec": 32.512,
+      "energy": 0.10314
+    },
+    {
+      "name": "chorus",
+      "start_sec": 32.512,
+      "end_sec": 38.069,
+      "energy": 0.16132
+    },
+    {
+      "name": "chorus",
+      "start_sec": 38.069,
+      "end_sec": 50.261,
+      "energy": 0.15907
+    },
+    {
+      "name": "chorus",
+      "start_sec": 50.261,
+      "end_sec": 51.851,
+      "energy": 0.21141
+    },
+    {
+      "name": "verse",
+      "start_sec": 51.851,
+      "end_sec": 91.723,
+      "energy": 0.14847
+    },
+    {
+      "name": "verse",
+      "start_sec": 91.723,
+      "end_sec": 97.355,
+      "energy": 0.14552
+    },
+    {
+      "name": "bridge",
+      "start_sec": 97.355,
+      "end_sec": 109.472,
+      "energy": 0.13887
+    },
+    {
+      "name": "bridge",
+      "start_sec": 109.472,
+      "end_sec": 146.08,
+      "energy": 0.12046
+    }
+  ],
+  "_note": "sections 为自动检测的候选，需人耳复核后再用"
+}

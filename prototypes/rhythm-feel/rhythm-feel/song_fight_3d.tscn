@@ -1,0 +1,125 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://song_fight_3d.gd" id="1_main"]
+[ext_resource type="Script" path="res://beat_clock.gd" id="2_clock"]
+[ext_resource type="Script" path="res://sfx.gd" id="3_sfx"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_player"]
+radius = 0.4
+height = 1.6
+
+[sub_resource type="StandardMaterial3D" id="Mat_player"]
+albedo_color = Color(0.55, 0.82, 1.0, 1)
+emission_enabled = true
+emission = Color(0.55, 0.82, 1.0, 1)
+emission_energy_multiplier = 0.15
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_enemy"]
+radius = 0.45
+height = 1.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_enemy"]
+albedo_color = Color(0.95, 0.42, 0.42, 1)
+emission_enabled = true
+emission = Color(0.95, 0.42, 0.42, 1)
+emission_energy_multiplier = 0.25
+
+[sub_resource type="PlaneMesh" id="Plane_ground"]
+size = Vector2(20, 20)
+
+[sub_resource type="StandardMaterial3D" id="Mat_ground"]
+albedo_color = Color(0.12, 0.12, 0.15, 1)
+
+[sub_resource type="BoxMesh" id="Box_backmid"]
+size = Vector3(24, 8, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="Mat_backmid"]
+albedo_color = Color(0.14, 0.1, 0.16, 1)
+
+[sub_resource type="BoxMesh" id="Box_backfar"]
+size = Vector3(34, 10, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="Mat_backfar"]
+albedo_color = Color(0.08, 0.07, 0.1, 1)
+
+[node name="SongFight3D" type="Node3D"]
+script = ExtResource("1_main")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+
+[node name="BeatClock" type="Node" parent="."]
+script = ExtResource("2_clock")
+
+[node name="Sfx" type="Node" parent="."]
+script = ExtResource("3_sfx")
+
+[node name="World" type="Node3D" parent="."]
+
+[node name="Ground" type="MeshInstance3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("Plane_ground")
+surface_material_override/0 = SubResource("Mat_ground")
+
+[node name="BackMid" type="MeshInstance3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, -6)
+mesh = SubResource("Box_backmid")
+surface_material_override/0 = SubResource("Mat_backmid")
+
+[node name="BackFar" type="MeshInstance3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, -14)
+mesh = SubResource("Box_backfar")
+surface_material_override/0 = SubResource("Mat_backfar")
+
+[node name="Player" type="MeshInstance3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.9, 0)
+mesh = SubResource("CapsuleMesh_player")
+surface_material_override/0 = SubResource("Mat_player")
+
+[node name="Enemy" type="MeshInstance3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1.0, 0)
+mesh = SubResource("CapsuleMesh_enemy")
+surface_material_override/0 = SubResource("Mat_enemy")
+
+[node name="KeyLight" type="DirectionalLight3D" parent="World"]
+transform = Transform3D(0.8137977, -0.4545195, 0.3612093, 0, 0.6225147, 0.7826224, -0.5811573, -0.6368336, 0.5065143, 0, 3, 2)
+light_energy = 1.1
+shadow_enabled = true
+
+[node name="FillLight" type="DirectionalLight3D" parent="World"]
+transform = Transform3D(0.6963643, 0.5, -0.5138515, 0, 0.7169418, 0.6971935, 0.7177063, -0.4855887, 0.4993196, 0, 2, -3)
+light_energy = 0.35
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 8)
+current = true
+fov = 45.0
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Readout" type="Label" parent="UI"]
+offset_left = 32.0
+offset_top = 20.0
+offset_right = 1100.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 17
+
+[node name="SectionLabel" type="Label" parent="UI"]
+offset_left = 32.0
+offset_top = 110.0
+offset_right = 900.0
+offset_bottom = 142.0
+theme_override_font_sizes/font_size = 22
+
+[node name="Banner" type="Label" parent="UI"]
+offset_left = 440.0
+offset_top = 200.0
+offset_right = 840.0
+offset_bottom = 270.0
+theme_override_font_sizes/font_size = 44
+horizontal_alignment = 1
+
+[node name="NoteLane" type="Control" parent="UI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2

@@ -1,43 +1,54 @@
-# Godot — Deprecated APIs
+# Godot Deprecated / Removed APIs
 
-Last verified: 2026-02-12
+*Last verified: 2026-08-31*
+*Applies to: Godot 4.7.2*
 
-If an agent suggests any API in the "Deprecated" column, it MUST be replaced
-with the "Use Instead" column.
+写代码前查这张表。左边的一律不要用。
 
-## Nodes & Classes
+---
 
-| Deprecated | Use Instead | Since | Notes |
-|------------|-------------|-------|-------|
-| `TileMap` | `TileMapLayer` | 4.3 | One node per layer instead of multi-layer node |
-| `VisibilityNotifier2D` | `VisibleOnScreenNotifier2D` | 4.0 | Renamed for clarity |
-| `VisibilityNotifier3D` | `VisibleOnScreenNotifier3D` | 4.0 | Renamed for clarity |
-| `YSort` | `Node2D.y_sort_enabled` | 4.0 | Property on Node2D, not a separate node |
-| `Navigation2D` / `Navigation3D` | `NavigationServer2D` / `NavigationServer3D` | 4.0 | Server-based API |
-| `EditorSceneFormatImporterFBX` | `EditorSceneFormatImporterFBX2GLTF` | 4.3 | Renamed |
+## 已移除（Removed）
 
-## Methods & Properties
+| 不要用 | 改用 | 起始版本 |
+|---|---|---|
+| `AudioEffectSpectrumAnalyzer.tap_back_pos` | 已完全移除，无直接替代。频谱可视化需另寻方案 | 4.7 |
+| Android OBB 导出 | Play Asset Delivery 或 PCK 分包 | 4.7 |
 
-| Deprecated | Use Instead | Since | Notes |
-|------------|-------------|-------|-------|
-| `yield()` | `await signal` | 4.0 | GDScript 2.0 coroutine syntax |
-| `connect("signal", obj, "method")` | `signal.connect(callable)` | 4.0 | Callable-based connections |
-| `instance()` | `instantiate()` | 4.0 | Renamed |
-| `PackedScene.instance()` | `PackedScene.instantiate()` | 4.0 | Renamed |
-| `get_world()` | `get_world_3d()` | 4.0 | Explicit 2D/3D split |
-| `OS.get_ticks_msec()` | `Time.get_ticks_msec()` | 4.0 | Time singleton preferred |
-| `duplicate()` for nested resources | `duplicate_deep()` | 4.5 | Explicit deep copy control |
-| `Skeleton3D` signal `bone_pose_updated` | `skeleton_updated` | 4.3 | Renamed |
-| `AnimationPlayer.method_call_mode` | `AnimationMixer.callback_mode_method` | 4.3 | Moved to base class |
-| `AnimationPlayer.playback_active` | `AnimationMixer.active` | 4.3 | Moved to base class |
+## 已废弃（Deprecated）
 
-## Patterns (Not Just APIs)
+| 不要用 | 改用 | 起始版本 |
+|---|---|---|
+| `Node.auto_translate` | `Node.auto_translate_mode` | 4.7 |
 
-| Deprecated Pattern | Use Instead | Why |
-|--------------------|-------------|-----|
-| String-based `connect()` | Typed signal connections | Type-safe, refactor-friendly |
-| `$NodePath` in `_process()` | `@onready var` cached reference | Performance: path lookup every frame |
-| Untyped `Array` / `Dictionary` | `Array[Type]`, typed variables | GDScript compiler optimizations |
-| `Texture2D` in shader parameters | `Texture` base type | Changed in 4.4 |
-| Manual post-process viewport chains | `Compositor` + `CompositorEffect` | Structured post-processing (4.3+) |
-| GodotPhysics3D for new projects | Jolt Physics 3D | Default since 4.6; better stability |
+## 更名 / 改签名（Renamed / Signature Changed）
+
+| 旧 | 新 | 说明 |
+|---|---|---|
+| `RichTextLabel.width_in_percent` | `RichTextLabel.width_unit` | 类型改为 `RichTextLabel.ImageUnit` |
+| `RichTextLabel.height_in_percent` | `RichTextLabel.height_unit` | 类型改为 `RichTextLabel.ImageUnit` |
+| `RichTextLabel.add_image(...)` 尺寸参数 `int` | `float` | |
+| `RichTextLabel.update_image(...)` 尺寸参数 `int` | `float` | |
+| `AnimationNodeBlendSpace1D/2D.sync`（bool） | `SyncMode` 枚举 | |
+
+## 不要再假设的常量值
+
+| 旧假设 | 现在 | 说明 |
+|---|---|---|
+| 鼠标事件 `device == 0` | `InputEvent.DEVICE_ID_MOUSE` | 4.7 起改用常量，避免与手柄 ID 冲突 |
+| 键盘事件 `device == 0` | `InputEvent.DEVICE_ID_KEYBOARD` | 同上 |
+
+## 默认值变更（不是废弃，但会静默改变行为）
+
+| 属性 | 旧默认 | 新默认 |
+|---|---|---|
+| `AudioStreamPlayer.area_mask` | `1` | `0` |
+| `SoftBody3D` mass | `0` | `1` kg |
+| 新项目窗口拉伸模式 | `disabled` | `canvas_items` |
+| 字体描边颜色 | 白 | 黑 |
+
+---
+
+## Sources
+
+- https://docs.godotengine.org/en/stable/tutorials/migrating/upgrading_to_godot_4.7.html
+- https://godotengine.org/releases/4.7/

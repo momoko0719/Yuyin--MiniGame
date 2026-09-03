@@ -1,0 +1,62 @@
+{
+  "file": "bei_qu_yi_dao.ogg",
+  "duration_sec": 146.08,
+  "bpm": 150.006,
+  "bpm_raw_estimate": 148.026,
+  "first_beat_sec": 0.076,
+  "first_beat_uncorrected_sec": 0.0747,
+  "phase_confidence": 4.512,
+  "beats_per_bar": 4,
+  "beat_count": 364,
+  "sections": [
+    {
+      "name": "intro",
+      "start_sec": 0.0,
+      "end_sec": 32.512,
+      "energy": 0.10298
+    },
+    {
+      "name": "chorus",
+      "start_sec": 32.512,
+      "end_sec": 38.069,
+      "energy": 0.16093
+    },
+    {
+      "name": "chorus",
+      "start_sec": 38.069,
+      "end_sec": 50.261,
+      "energy": 0.15914
+    },
+    {
+      "name": "chorus",
+      "start_sec": 50.261,
+      "end_sec": 51.893,
+      "energy": 0.21077
+    },
+    {
+      "name": "verse",
+      "start_sec": 51.893,
+      "end_sec": 91.723,
+      "energy": 0.14838
+    },
+    {
+      "name": "verse",
+      "start_sec": 91.723,
+      "end_sec": 97.269,
+      "energy": 0.14574
+    },
+    {
+      "name": "bridge",
+      "start_sec": 97.269,
+      "end_sec": 109.472,
+      "energy": 0.13884
+    },
+    {
+      "name": "bridge",
+      "start_sec": 109.472,
+      "end_sec": 146.08,
+      "energy": 0.12033
+    }
+  ],
+  "_note": "sections 为自动检测的候选，需人耳复核后再用"
+}

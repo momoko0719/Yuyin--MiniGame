@@ -1,0 +1,557 @@
+{
+  "bpm": 115.763,
+  "event_count": 137,
+  "events": [
+    {
+      "beat": 3.5,
+      "role": "strike"
+    },
+    {
+      "beat": 6.25,
+      "role": "strike"
+    },
+    {
+      "beat": 8.75,
+      "role": "strike"
+    },
+    {
+      "beat": 11.5,
+      "role": "strike"
+    },
+    {
+      "beat": 14.25,
+      "role": "strike"
+    },
+    {
+      "beat": 19.5,
+      "role": "strike"
+    },
+    {
+      "beat": 22.25,
+      "role": "strike"
+    },
+    {
+      "beat": 25.0,
+      "role": "strike"
+    },
+    {
+      "beat": 27.75,
+      "role": "strike"
+    },
+    {
+      "beat": 30.25,
+      "role": "strike"
+    },
+    {
+      "beat": 35.75,
+      "role": "strike"
+    },
+    {
+      "beat": 38.5,
+      "role": "strike"
+    },
+    {
+      "beat": 41.0,
+      "role": "strike"
+    },
+    {
+      "beat": 43.75,
+      "role": "strike"
+    },
+    {
+      "beat": 46.5,
+      "role": "strike"
+    },
+    {
+      "beat": 48.0,
+      "role": "strike"
+    },
+    {
+      "beat": 49.25,
+      "role": "block"
+    },
+    {
+      "beat": 50.5,
+      "role": "strike"
+    },
+    {
+      "beat": 52.0,
+      "role": "block"
+    },
+    {
+      "beat": 53.0,
+      "role": "block"
+    },
+    {
+      "beat": 57.25,
+      "role": "strike"
+    },
+    {
+      "beat": 59.25,
+      "role": "strike"
+    },
+    {
+      "beat": 60.0,
+      "role": "block"
+    },
+    {
+      "beat": 61.25,
+      "role": "strike"
+    },
+    {
+      "beat": 62.75,
+      "role": "block"
+    },
+    {
+      "beat": 63.75,
+      "role": "block"
+    },
+    {
+      "beat": 66.75,
+      "role": "strike"
+    },
+    {
+      "beat": 67.5,
+      "role": "strike"
+    },
+    {
+      "beat": 68.25,
+      "role": "block"
+    },
+    {
+      "beat": 70.0,
+      "role": "strike"
+    },
+    {
+      "beat": 70.75,
+      "role": "block"
+    },
+    {
+      "beat": 72.0,
+      "role": "strike"
+    },
+    {
+      "beat": 72.75,
+      "role": "block"
+    },
+    {
+      "beat": 73.5,
+      "role": "strike"
+    },
+    {
+      "beat": 74.75,
+      "role": "strike"
+    },
+    {
+      "beat": 76.0,
+      "role": "strike"
+    },
+    {
+      "beat": 77.5,
+      "role": "strike"
+    },
+    {
+      "beat": 78.75,
+      "role": "strike"
+    },
+    {
+      "beat": 81.25,
+      "role": "strike"
+    },
+    {
+      "beat": 82.75,
+      "role": "strike"
+    },
+    {
+      "beat": 84.25,
+      "role": "block"
+    },
+    {
+      "beat": 89.75,
+      "role": "strike"
+    },
+    {
+      "beat": 91.5,
+      "role": "strike"
+    },
+    {
+      "beat": 92.25,
+      "role": "block"
+    },
+    {
+      "beat": 93.5,
+      "role": "strike"
+    },
+    {
+      "beat": 95.0,
+      "role": "block"
+    },
+    {
+      "beat": 96.0,
+      "role": "block"
+    },
+    {
+      "beat": 100.5,
+      "role": "strike"
+    },
+    {
+      "beat": 102.5,
+      "role": "strike"
+    },
+    {
+      "beat": 103.25,
+      "role": "block"
+    },
+    {
+      "beat": 104.25,
+      "role": "strike"
+    },
+    {
+      "beat": 105.75,
+      "role": "block"
+    },
+    {
+      "beat": 106.75,
+      "role": "block"
+    },
+    {
+      "beat": 109.75,
+      "role": "strike"
+    },
+    {
+      "beat": 111.0,
+      "role": "strike"
+    },
+    {
+      "beat": 112.5,
+      "role": "block"
+    },
+    {
+      "beat": 113.5,
+      "role": "block"
+    },
+    {
+      "beat": 116.5,
+      "role": "strike"
+    },
+    {
+      "beat": 118.0,
+      "role": "strike"
+    },
+    {
+      "beat": 119.25,
+      "role": "block"
+    },
+    {
+      "beat": 120.5,
+      "role": "strike"
+    },
+    {
+      "beat": 121.75,
+      "role": "strike"
+    },
+    {
+      "beat": 123.25,
+      "role": "block"
+    },
+    {
+      "beat": 124.5,
+      "role": "block"
+    },
+    {
+      "beat": 126.0,
+      "role": "strike"
+    },
+    {
+      "beat": 127.25,
+      "role": "strike"
+    },
+    {
+      "beat": 132.5,
+      "role": "strike"
+    },
+    {
+      "beat": 134.0,
+      "role": "strike"
+    },
+    {
+      "beat": 135.25,
+      "role": "block"
+    },
+    {
+      "beat": 136.5,
+      "role": "block"
+    },
+    {
+      "beat": 138.0,
+      "role": "strike"
+    },
+    {
+      "beat": 139.25,
+      "role": "strike"
+    },
+    {
+      "beat": 140.75,
+      "role": "block"
+    },
+    {
+      "beat": 142.0,
+      "role": "block"
+    },
+    {
+      "beat": 146.0,
+      "role": "strike"
+    },
+    {
+      "beat": 147.25,
+      "role": "block"
+    },
+    {
+      "beat": 148.0,
+      "role": "strike"
+    },
+    {
+      "beat": 148.75,
+      "role": "block"
+    },
+    {
+      "beat": 150.0,
+      "role": "block"
+    },
+    {
+      "beat": 151.5,
+      "role": "block"
+    },
+    {
+      "beat": 152.75,
+      "role": "strike"
+    },
+    {
+      "beat": 153.5,
+      "role": "strike"
+    },
+    {
+      "beat": 154.25,
+      "role": "block"
+    },
+    {
+      "beat": 155.5,
+      "role": "block"
+    },
+    {
+      "beat": 157.0,
+      "role": "block"
+    },
+    {
+      "beat": 158.25,
+      "role": "strike"
+    },
+    {
+      "beat": 158.75,
+      "role": "strike"
+    },
+    {
+      "beat": 159.75,
+      "role": "block"
+    },
+    {
+      "beat": 161.0,
+      "role": "strike"
+    },
+    {
+      "beat": 162.25,
+      "role": "strike"
+    },
+    {
+      "beat": 163.75,
+      "role": "strike"
+    },
+    {
+      "beat": 166.25,
+      "role": "strike"
+    },
+    {
+      "beat": 167.75,
+      "role": "block"
+    },
+    {
+      "beat": 169.0,
+      "role": "block"
+    },
+    {
+      "beat": 170.5,
+      "role": "strike"
+    },
+    {
+      "beat": 171.75,
+      "role": "strike"
+    },
+    {
+      "beat": 172.25,
+      "role": "strike"
+    },
+    {
+      "beat": 173.0,
+      "role": "strike"
+    },
+    {
+      "beat": 173.75,
+      "role": "block"
+    },
+    {
+      "beat": 174.5,
+      "role": "block"
+    },
+    {
+      "beat": 175.0,
+      "role": "block"
+    },
+    {
+      "beat": 176.0,
+      "role": "strike"
+    },
+    {
+      "beat": 177.75,
+      "role": "block"
+    },
+    {
+      "beat": 178.5,
+      "role": "block"
+    },
+    {
+      "beat": 179.75,
+      "role": "strike"
+    },
+    {
+      "beat": 180.5,
+      "role": "strike"
+    },
+    {
+      "beat": 181.75,
+      "role": "strike"
+    },
+    {
+      "beat": 183.25,
+      "role": "strike"
+    },
+    {
+      "beat": 184.0,
+      "role": "strike"
+    },
+    {
+      "beat": 184.5,
+      "role": "block"
+    },
+    {
+      "beat": 185.25,
+      "role": "block"
+    },
+    {
+      "beat": 186.0,
+      "role": "block"
+    },
+    {
+      "beat": 186.5,
+      "role": "strike"
+    },
+    {
+      "beat": 188.5,
+      "role": "strike"
+    },
+    {
+      "beat": 189.25,
+      "role": "strike"
+    },
+    {
+      "beat": 190.5,
+      "role": "block"
+    },
+    {
+      "beat": 191.25,
+      "role": "block"
+    },
+    {
+      "beat": 192.5,
+      "role": "strike"
+    },
+    {
+      "beat": 195.25,
+      "role": "block"
+    },
+    {
+      "beat": 196.0,
+      "role": "block"
+    },
+    {
+      "beat": 197.25,
+      "role": "strike"
+    },
+    {
+      "beat": 198.75,
+      "role": "strike"
+    },
+    {
+      "beat": 200.0,
+      "role": "strike"
+    },
+    {
+      "beat": 201.5,
+      "role": "block"
+    },
+    {
+      "beat": 202.25,
+      "role": "block"
+    },
+    {
+      "beat": 202.75,
+      "role": "strike"
+    },
+    {
+      "beat": 204.0,
+      "role": "strike"
+    },
+    {
+      "beat": 205.25,
+      "role": "strike"
+    },
+    {
+      "beat": 206.75,
+      "role": "block"
+    },
+    {
+      "beat": 207.5,
+      "role": "block"
+    },
+    {
+      "beat": 208.0,
+      "role": "strike"
+    },
+    {
+      "beat": 209.25,
+      "role": "strike"
+    },
+    {
+      "beat": 210.75,
+      "role": "strike"
+    },
+    {
+      "beat": 212.0,
+      "role": "block"
+    },
+    {
+      "beat": 213.5,
+      "role": "strike"
+    },
+    {
+      "beat": 214.75,
+      "role": "strike"
+    },
+    {
+      "beat": 216.0,
+      "role": "strike"
+    }
+  ],
+  "first_beat_sec": 0.3835,
+  "quantize": 4,
+  "song": "qian_si_xi.ogg"
+}

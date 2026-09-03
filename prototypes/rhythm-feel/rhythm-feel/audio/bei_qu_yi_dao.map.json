@@ -1,0 +1,65 @@
+{
+  "file": "bei_qu_yi_dao.ogg",
+  "duration_sec": 146.08,
+  "bpm": 150.006,
+  "beat_duration_sec": 0.399984,
+  "first_beat_sec": 0.076,
+  "beats_per_bar": 4,
+  "phase_confidence_sigma": 4.512,
+  "sections": [
+    {
+      "name": "intro",
+      "start_sec": 0.076,
+      "end_sec": 6.4757,
+      "start_bar": 0,
+      "start_beat": 0,
+      "reported_sec": 0.0,
+      "snap_shift_ms": 76.0
+    },
+    {
+      "name": "verse",
+      "start_sec": 6.4757,
+      "end_sec": 36.8745,
+      "start_bar": 4,
+      "start_beat": 16,
+      "reported_sec": 6.0,
+      "snap_shift_ms": 475.7
+    },
+    {
+      "name": "chorus",
+      "start_sec": 36.8745,
+      "end_sec": 65.6734,
+      "start_bar": 23,
+      "start_beat": 92,
+      "reported_sec": 37.5,
+      "snap_shift_ms": -625.5
+    },
+    {
+      "name": "verse",
+      "start_sec": 65.6734,
+      "end_sec": 78.4729,
+      "start_bar": 41,
+      "start_beat": 164,
+      "reported_sec": 65.0,
+      "snap_shift_ms": 673.4
+    },
+    {
+      "name": "bridge",
+      "start_sec": 78.4729,
+      "end_sec": 91.2724,
+      "start_bar": 49,
+      "start_beat": 196,
+      "reported_sec": 78.0,
+      "snap_shift_ms": 472.9
+    },
+    {
+      "name": "chorus",
+      "start_sec": 91.2724,
+      "end_sec": 146.08,
+      "start_bar": 57,
+      "start_beat": 228,
+      "reported_sec": 91.0,
+      "snap_shift_ms": 272.4
+    }
+  ]
+}

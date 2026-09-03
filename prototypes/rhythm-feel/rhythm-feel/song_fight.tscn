@@ -1,0 +1,119 @@
+[gd_scene format=3 uid="uid://b2ki8ssilfmtv"]
+
+[ext_resource type="Script" uid="uid://c3cljpqx7726y" path="res://song_fight.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://ddt2xaiabewjp" path="res://beat_clock.gd" id="2_clock"]
+[ext_resource type="Script" uid="uid://cyx2tv3c1t5lx" path="res://sfx.gd" id="3_sfx"]
+[ext_resource type="Texture2D" uid="uid://cracd28srarh7" path="res://art/background/far.png" id="4_far"]
+[ext_resource type="Texture2D" uid="uid://bxeqgboeqplco" path="res://art/background/mid.png" id="5_mid"]
+[ext_resource type="Texture2D" uid="uid://d1sg8pw5hrbml" path="res://art/background/fore.png" id="6_fore"]
+[ext_resource type="Texture2D" uid="uid://b3pori7e04xnx" path="res://art/background/lantern.png" id="7_lantern"]
+[ext_resource type="Texture2D" uid="uid://crontywursxu7" path="res://art/characters/shen_yan/body.png" id="8_pbody"]
+[ext_resource type="Texture2D" uid="uid://fxcry1wtgt6t" path="res://art/characters/shen_yan/arm_sword.png" id="9_parm"]
+[ext_resource type="Texture2D" uid="uid://creusoj6nsffn" path="res://art/characters/puppeteer/body.png" id="10_ebody"]
+[ext_resource type="Texture2D" uid="uid://c380suhbk1lv5" path="res://art/characters/puppeteer/arm_raise.png" id="11_earm"]
+[ext_resource type="Texture2D" uid="uid://brt4baebnyxc5" path="res://art/vfx/slash.png" id="12_slash"]
+
+[node name="SongFight" type="Node2D" unique_id=505733267]
+script = ExtResource("1_main")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1381702549]
+
+[node name="BeatClock" type="Node" parent="." unique_id=1119014313]
+script = ExtResource("2_clock")
+
+[node name="Sfx" type="Node" parent="." unique_id=1275695782]
+script = ExtResource("3_sfx")
+
+[node name="World" type="Node2D" parent="." unique_id=959444064]
+
+[node name="BgFar" type="Sprite2D" parent="World" unique_id=177023871]
+position = Vector2(640, 360)
+scale = Vector2(0.803, 0.803)
+texture = ExtResource("4_far")
+
+[node name="BgMid" type="Sprite2D" parent="World" unique_id=1970455251]
+position = Vector2(640, 454)
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("5_mid")
+
+[node name="Lanterns" type="Node2D" parent="World" unique_id=1898268217]
+
+[node name="L0" type="Sprite2D" parent="World/Lanterns" unique_id=601283866]
+position = Vector2(300, 120)
+scale = Vector2(0.115, 0.115)
+texture = ExtResource("7_lantern")
+
+[node name="L1" type="Sprite2D" parent="World/Lanterns" unique_id=1986284064]
+position = Vector2(980, 120)
+scale = Vector2(0.115, 0.115)
+texture = ExtResource("7_lantern")
+
+[node name="Player" type="Node2D" parent="World" unique_id=340219850]
+position = Vector2(455, 454)
+
+[node name="Body" type="Sprite2D" parent="World/Player" unique_id=1687672772]
+scale = Vector2(0.245, 0.245)
+texture = ExtResource("8_pbody")
+
+[node name="ArmSword" type="Sprite2D" parent="World/Player" unique_id=1657627488]
+visible = false
+position = Vector2(12, -112)
+scale = Vector2(0.196, 0.196)
+texture = ExtResource("9_parm")
+offset = Vector2(864, -62)
+
+[node name="Enemy" type="Node2D" parent="World" unique_id=702277016]
+position = Vector2(860, 452)
+
+[node name="Body" type="Sprite2D" parent="World/Enemy" unique_id=1728855903]
+scale = Vector2(0.245, 0.245)
+texture = ExtResource("10_ebody")
+
+[node name="ArmRaise" type="Sprite2D" parent="World/Enemy" unique_id=64930700]
+visible = false
+position = Vector2(-18, -136)
+scale = Vector2(0.176, 0.176)
+texture = ExtResource("11_earm")
+offset = Vector2(-835, -40)
+
+[node name="Slash" type="Sprite2D" parent="World" unique_id=1271927110]
+visible = false
+position = Vector2(660, 400)
+scale = Vector2(0.28, 0.28)
+texture = ExtResource("12_slash")
+
+[node name="BgFore" type="Sprite2D" parent="World" unique_id=626540891]
+position = Vector2(640, 360)
+scale = Vector2(0.803, 0.803)
+texture = ExtResource("6_fore")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1699718719]
+
+[node name="Lane" type="Control" parent="UI" unique_id=612711796]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="SectionLabel" type="Label" parent="UI" unique_id=79549374]
+offset_left = 40.0
+offset_top = 638.0
+offset_right = 800.0
+offset_bottom = 668.0
+theme_override_font_sizes/font_size = 20
+
+[node name="Readout" type="Label" parent="UI" unique_id=71618621]
+offset_left = 40.0
+offset_top = 664.0
+offset_right = 1240.0
+offset_bottom = 712.0
+theme_override_font_sizes/font_size = 14
+
+[node name="Banner" type="Label" parent="UI" unique_id=557366532]
+offset_left = 440.0
+offset_top = 330.0
+offset_right = 840.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 44
+horizontal_alignment = 1

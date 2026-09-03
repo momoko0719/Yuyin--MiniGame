@@ -1,0 +1,778 @@
+{
+  "song": "qian_si_xi.ogg",
+  "bpm": 115.763,
+  "first_beat_sec": 0.3835,
+  "quantize": 2,
+  "event_count": 192,
+  "_generated": "tools/make_draft_chart.py — 初稿，需人工在录制器里修",
+  "events": [
+    {
+      "beat": 2.5,
+      "role": "strike"
+    },
+    {
+      "beat": 3.5,
+      "role": "block"
+    },
+    {
+      "beat": 4.5,
+      "role": "strike"
+    },
+    {
+      "beat": 5.5,
+      "role": "strike"
+    },
+    {
+      "beat": 7.5,
+      "role": "block"
+    },
+    {
+      "beat": 8.5,
+      "role": "block"
+    },
+    {
+      "beat": 13.0,
+      "role": "strike"
+    },
+    {
+      "beat": 14.0,
+      "role": "strike"
+    },
+    {
+      "beat": 15.0,
+      "role": "block"
+    },
+    {
+      "beat": 16.0,
+      "role": "strike"
+    },
+    {
+      "beat": 17.0,
+      "role": "block"
+    },
+    {
+      "beat": 18.0,
+      "role": "strike"
+    },
+    {
+      "beat": 19.0,
+      "role": "strike"
+    },
+    {
+      "beat": 21.0,
+      "role": "block"
+    },
+    {
+      "beat": 22.0,
+      "role": "strike"
+    },
+    {
+      "beat": 23.0,
+      "role": "strike"
+    },
+    {
+      "beat": 25.0,
+      "role": "block"
+    },
+    {
+      "beat": 30.5,
+      "role": "block"
+    },
+    {
+      "beat": 32.5,
+      "role": "strike"
+    },
+    {
+      "beat": 34.5,
+      "role": "block"
+    },
+    {
+      "beat": 35.5,
+      "role": "strike"
+    },
+    {
+      "beat": 36.5,
+      "role": "block"
+    },
+    {
+      "beat": 37.5,
+      "role": "strike"
+    },
+    {
+      "beat": 38.5,
+      "role": "strike"
+    },
+    {
+      "beat": 39.5,
+      "role": "strike"
+    },
+    {
+      "beat": 42.5,
+      "role": "strike"
+    },
+    {
+      "beat": 43.5,
+      "role": "block"
+    },
+    {
+      "beat": 44.5,
+      "role": "block"
+    },
+    {
+      "beat": 49.0,
+      "role": "strike"
+    },
+    {
+      "beat": 50.0,
+      "role": "block"
+    },
+    {
+      "beat": 52.0,
+      "role": "strike"
+    },
+    {
+      "beat": 54.0,
+      "role": "block"
+    },
+    {
+      "beat": 56.0,
+      "role": "block"
+    },
+    {
+      "beat": 57.0,
+      "role": "strike"
+    },
+    {
+      "beat": 58.0,
+      "role": "strike"
+    },
+    {
+      "beat": 59.0,
+      "role": "strike"
+    },
+    {
+      "beat": 60.0,
+      "role": "block"
+    },
+    {
+      "beat": 67.5,
+      "role": "block"
+    },
+    {
+      "beat": 69.5,
+      "role": "block"
+    },
+    {
+      "beat": 70.5,
+      "role": "strike"
+    },
+    {
+      "beat": 71.5,
+      "role": "strike"
+    },
+    {
+      "beat": 73.5,
+      "role": "strike"
+    },
+    {
+      "beat": 75.5,
+      "role": "block"
+    },
+    {
+      "beat": 77.5,
+      "role": "strike"
+    },
+    {
+      "beat": 78.5,
+      "role": "block"
+    },
+    {
+      "beat": 83.0,
+      "role": "block"
+    },
+    {
+      "beat": 84.0,
+      "role": "strike"
+    },
+    {
+      "beat": 85.0,
+      "role": "strike"
+    },
+    {
+      "beat": 87.0,
+      "role": "block"
+    },
+    {
+      "beat": 88.0,
+      "role": "strike"
+    },
+    {
+      "beat": 89.0,
+      "role": "strike"
+    },
+    {
+      "beat": 91.0,
+      "role": "block"
+    },
+    {
+      "beat": 92.0,
+      "role": "strike"
+    },
+    {
+      "beat": 93.0,
+      "role": "strike"
+    },
+    {
+      "beat": 95.0,
+      "role": "block"
+    },
+    {
+      "beat": 97.0,
+      "role": "block"
+    },
+    {
+      "beat": 102.5,
+      "role": "block"
+    },
+    {
+      "beat": 104.5,
+      "role": "block"
+    },
+    {
+      "beat": 106.5,
+      "role": "strike"
+    },
+    {
+      "beat": 108.5,
+      "role": "block"
+    },
+    {
+      "beat": 110.5,
+      "role": "strike"
+    },
+    {
+      "beat": 112.5,
+      "role": "block"
+    },
+    {
+      "beat": 114.5,
+      "role": "strike"
+    },
+    {
+      "beat": 119.0,
+      "role": "block"
+    },
+    {
+      "beat": 120.0,
+      "role": "block"
+    },
+    {
+      "beat": 126.0,
+      "role": "block"
+    },
+    {
+      "beat": 127.0,
+      "role": "strike"
+    },
+    {
+      "beat": 128.0,
+      "role": "strike"
+    },
+    {
+      "beat": 130.0,
+      "role": "block"
+    },
+    {
+      "beat": 132.0,
+      "role": "block"
+    },
+    {
+      "beat": 137.5,
+      "role": "strike"
+    },
+    {
+      "beat": 139.5,
+      "role": "block"
+    },
+    {
+      "beat": 140.0,
+      "role": "strike"
+    },
+    {
+      "beat": 140.5,
+      "role": "strike"
+    },
+    {
+      "beat": 141.5,
+      "role": "block"
+    },
+    {
+      "beat": 145.5,
+      "role": "block"
+    },
+    {
+      "beat": 147.5,
+      "role": "strike"
+    },
+    {
+      "beat": 149.5,
+      "role": "block"
+    },
+    {
+      "beat": 155.0,
+      "role": "block"
+    },
+    {
+      "beat": 157.0,
+      "role": "block"
+    },
+    {
+      "beat": 161.0,
+      "role": "block"
+    },
+    {
+      "beat": 162.0,
+      "role": "strike"
+    },
+    {
+      "beat": 163.0,
+      "role": "strike"
+    },
+    {
+      "beat": 167.0,
+      "role": "block"
+    },
+    {
+      "beat": 169.0,
+      "role": "block"
+    },
+    {
+      "beat": 172.5,
+      "role": "strike"
+    },
+    {
+      "beat": 174.5,
+      "role": "block"
+    },
+    {
+      "beat": 175.5,
+      "role": "strike"
+    },
+    {
+      "beat": 177.5,
+      "role": "block"
+    },
+    {
+      "beat": 182.5,
+      "role": "block"
+    },
+    {
+      "beat": 184.5,
+      "role": "block"
+    },
+    {
+      "beat": 190.0,
+      "role": "block"
+    },
+    {
+      "beat": 192.0,
+      "role": "block"
+    },
+    {
+      "beat": 196.0,
+      "role": "block"
+    },
+    {
+      "beat": 200.0,
+      "role": "block"
+    },
+    {
+      "beat": 205.5,
+      "role": "block"
+    },
+    {
+      "beat": 209.5,
+      "role": "block"
+    },
+    {
+      "beat": 213.5,
+      "role": "block"
+    },
+    {
+      "beat": 215.5,
+      "role": "strike"
+    },
+    {
+      "beat": 217.5,
+      "role": "block"
+    },
+    {
+      "beat": 218.5,
+      "role": "strike"
+    },
+    {
+      "beat": 227.0,
+      "role": "block"
+    },
+    {
+      "beat": 229.0,
+      "role": "block"
+    },
+    {
+      "beat": 231.0,
+      "role": "strike"
+    },
+    {
+      "beat": 233.0,
+      "role": "strike"
+    },
+    {
+      "beat": 235.0,
+      "role": "block"
+    },
+    {
+      "beat": 237.0,
+      "role": "block"
+    },
+    {
+      "beat": 242.5,
+      "role": "block"
+    },
+    {
+      "beat": 244.5,
+      "role": "block"
+    },
+    {
+      "beat": 248.5,
+      "role": "strike"
+    },
+    {
+      "beat": 250.5,
+      "role": "block"
+    },
+    {
+      "beat": 252.5,
+      "role": "strike"
+    },
+    {
+      "beat": 254.5,
+      "role": "block"
+    },
+    {
+      "beat": 259.0,
+      "role": "block"
+    },
+    {
+      "beat": 260.0,
+      "role": "block"
+    },
+    {
+      "beat": 264.0,
+      "role": "strike"
+    },
+    {
+      "beat": 266.0,
+      "role": "block"
+    },
+    {
+      "beat": 267.0,
+      "role": "strike"
+    },
+    {
+      "beat": 268.0,
+      "role": "strike"
+    },
+    {
+      "beat": 270.0,
+      "role": "block"
+    },
+    {
+      "beat": 274.0,
+      "role": "block"
+    },
+    {
+      "beat": 277.5,
+      "role": "strike"
+    },
+    {
+      "beat": 278.0,
+      "role": "strike"
+    },
+    {
+      "beat": 279.0,
+      "role": "strike"
+    },
+    {
+      "beat": 279.5,
+      "role": "block"
+    },
+    {
+      "beat": 280.5,
+      "role": "block"
+    },
+    {
+      "beat": 281.5,
+      "role": "strike"
+    },
+    {
+      "beat": 282.0,
+      "role": "strike"
+    },
+    {
+      "beat": 283.5,
+      "role": "strike"
+    },
+    {
+      "beat": 287.5,
+      "role": "block"
+    },
+    {
+      "beat": 289.5,
+      "role": "block"
+    },
+    {
+      "beat": 295.0,
+      "role": "block"
+    },
+    {
+      "beat": 298.0,
+      "role": "block"
+    },
+    {
+      "beat": 301.0,
+      "role": "strike"
+    },
+    {
+      "beat": 302.0,
+      "role": "block"
+    },
+    {
+      "beat": 303.0,
+      "role": "strike"
+    },
+    {
+      "beat": 305.0,
+      "role": "block"
+    },
+    {
+      "beat": 306.0,
+      "role": "strike"
+    },
+    {
+      "beat": 309.0,
+      "role": "block"
+    },
+    {
+      "beat": 312.5,
+      "role": "block"
+    },
+    {
+      "beat": 314.5,
+      "role": "strike"
+    },
+    {
+      "beat": 316.5,
+      "role": "block"
+    },
+    {
+      "beat": 322.5,
+      "role": "strike"
+    },
+    {
+      "beat": 323.5,
+      "role": "block"
+    },
+    {
+      "beat": 324.5,
+      "role": "block"
+    },
+    {
+      "beat": 330.0,
+      "role": "block"
+    },
+    {
+      "beat": 332.0,
+      "role": "block"
+    },
+    {
+      "beat": 334.0,
+      "role": "strike"
+    },
+    {
+      "beat": 336.0,
+      "role": "block"
+    },
+    {
+      "beat": 338.0,
+      "role": "strike"
+    },
+    {
+      "beat": 340.0,
+      "role": "strike"
+    },
+    {
+      "beat": 342.0,
+      "role": "block"
+    },
+    {
+      "beat": 344.0,
+      "role": "block"
+    },
+    {
+      "beat": 349.5,
+      "role": "block"
+    },
+    {
+      "beat": 353.5,
+      "role": "block"
+    },
+    {
+      "beat": 357.5,
+      "role": "block"
+    },
+    {
+      "beat": 361.5,
+      "role": "block"
+    },
+    {
+      "beat": 367.0,
+      "role": "block"
+    },
+    {
+      "beat": 369.0,
+      "role": "block"
+    },
+    {
+      "beat": 373.0,
+      "role": "block"
+    },
+    {
+      "beat": 375.0,
+      "role": "strike"
+    },
+    {
+      "beat": 377.0,
+      "role": "block"
+    },
+    {
+      "beat": 379.0,
+      "role": "strike"
+    },
+    {
+      "beat": 382.5,
+      "role": "block"
+    },
+    {
+      "beat": 384.5,
+      "role": "block"
+    },
+    {
+      "beat": 390.5,
+      "role": "block"
+    },
+    {
+      "beat": 392.5,
+      "role": "block"
+    },
+    {
+      "beat": 394.5,
+      "role": "strike"
+    },
+    {
+      "beat": 396.5,
+      "role": "block"
+    },
+    {
+      "beat": 402.0,
+      "role": "block"
+    },
+    {
+      "beat": 406.0,
+      "role": "block"
+    },
+    {
+      "beat": 410.0,
+      "role": "block"
+    },
+    {
+      "beat": 412.0,
+      "role": "block"
+    },
+    {
+      "beat": 419.5,
+      "role": "block"
+    },
+    {
+      "beat": 423.5,
+      "role": "block"
+    },
+    {
+      "beat": 425.5,
+      "role": "strike"
+    },
+    {
+      "beat": 427.5,
+      "role": "block"
+    },
+    {
+      "beat": 429.5,
+      "role": "block"
+    },
+    {
+      "beat": 435.0,
+      "role": "block"
+    },
+    {
+      "beat": 437.0,
+      "role": "block"
+    },
+    {
+      "beat": 438.0,
+      "role": "strike"
+    },
+    {
+      "beat": 439.0,
+      "role": "strike"
+    },
+    {
+      "beat": 441.0,
+      "role": "block"
+    },
+    {
+      "beat": 442.0,
+      "role": "strike"
+    },
+    {
+      "beat": 443.0,
+      "role": "strike"
+    },
+    {
+      "beat": 445.0,
+      "role": "strike"
+    },
+    {
+      "beat": 446.0,
+      "role": "strike"
+    },
+    {
+      "beat": 447.0,
+      "role": "block"
+    },
+    {
+      "beat": 449.0,
+      "role": "block"
+    },
+    {
+      "beat": 454.5,
+      "role": "block"
+    },
+    {
+      "beat": 455.5,
+      "role": "strike"
+    },
+    {
+      "beat": 456.5,
+      "role": "block"
+    }
+  ]
+}
